@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#box{
+  width: 450px;
+  height: 500px;
+  background-color: #dcedc8;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+p{
+  margin-bottom: 0 !important;
+}
+
+.inline-text{
+  display: inline;
+  font-size: 22px;
+}
+
+#cycles{
+  color: blue;
+}
+
+#timer-div{
+  width: 150px;
+  height: 350px;
+  padding-top: 100px;
+  line-height: 50px;
+}
+
+#timer-div p{
+  font-size: 40px;
+}

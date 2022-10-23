@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="box">
+    <div class="row">
+      <div class="col">
+        <p>WORK</p>
+        <div>
+          <button id="subtraction-work" class="btn btn-light">-</button>
+          <p id="work-interval" class="inline-text">25</p>
+          <button id="addition-work" class="btn btn-light">+</button>
+        </div>
+      </div>
+      <div class="col">
+        <p>CYCLES</p>
+        <div>
+          <p id="cycles" class="inline-text">0</p>
+        </div>
+      </div>
+      <div class="col">
+        <p>BREAK</p>
+        <div>
+          <button id="subtraction-break" class="btn btn-light">-</button>
+          <p id="break-interval" class="inline-text">5</p>
+          <button id="addition-break" class="btn btn-light">+</button>
+        </div>
+      </div>
+    </div>
+    <div id="timer-div">
+      <p id="minutes" class="inline-text">00</p>
+      <p class="inline-text">:</p>
+      <p id="seconds" class="inline-text">00</p>
+      <h5 id="current-interval"></h5>
+    </div>
+    <div class="row">
+      <button id="start" class="btn btn-success col-2 ">Start</button>
+      <button id="reset" class="btn btn-info col-2 offset-3">Reset</button>
+      <button id="pause" class="btn btn-danger col-2 offset-3">Pause</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
+  <script src="main.js"></script>
+</body>
+</html>
